@@ -1,12 +1,36 @@
-# React + Vite
+# JavaScript & React Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A learning repository for JavaScript fundamentals, small exercises, and a React application built with Vite. This is practice work rather than a production application.
 
-Currently, two official plugins are available:
+## Repository guide
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- `01_basics/` — JavaScript fundamentals exercises.
+- `04_comparison.js` and `todo.js` — standalone JavaScript practice files.
+- `src/` — React application source.
+- `taskmanagement/` — task-management practice files.
+- Java source files are retained alongside the original exercises.
 
-## Expanding the ESLint configuration
+## Run the React app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install a Node.js version supported by Vite 7, then run:
+
+```sh
+npm ci
+npm run dev
+```
+
+Open the local URL printed by Vite.
+
+## Other commands
+
+```sh
+npm run build    # Build the app
+npm run preview  # Preview the build
+npm run lint     # Run ESLint
+```
+
+The React app uses React Router and Material UI. Individual exercises may have their own assumptions; this repository is not a single finished product.
+
+## More projects
+
+For documented showcase projects, see [my profile](https://github.com/abhigyan6).
